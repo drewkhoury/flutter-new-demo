@@ -1,14 +1,20 @@
-# flutter-new-demo
+# Flutter demo
 
+A simple flutter application with tests.
 
-Creating a new project: `flutter create demo`.
+## Specific tests
+Run a specific group of tests from a file:
 
-When adding packages to `pubspec.yaml`, you need to run `flutter pub get` to download the packages (your IDE may to this for you).
+`flutter test test/counter_test.dart`
 
-Run a specific group of tests from a file `flutter test test/counter_test.dart`.
+## All tests
+Run all tests:
 
-Run all tests `flutter test`.
+`flutter test`
 
-Runs tests, but shows one on each line `flutter test --reporter=expanded`.
+## Tests - Expanded
+Runs tests, but shows one on each line:
+
+`flutter test --reporter=expanded`
 
 ![demo.png](demo.png)
