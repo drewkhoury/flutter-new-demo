@@ -10,3 +10,5 @@ Run a specific group of tests from a file `flutter test test/counter_test.dart`.
 Run all tests `flutter test`.
 
 Runs tests, but shows one on each line `flutter test --reporter=expanded`.
+
+![demo.png](demo.png)
